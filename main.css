@@ -1,0 +1,86 @@
+#dashboard{
+    text-align: center;
+
+    color:white;
+  
+}
+#submit-button {
+    background-color:rgb(3, 40, 77);
+    border-radius: 50px;
+    color: white;
+       
+     
+}
+
+#city-search {
+    border-radius: 50px;  
+    text-align: center; 
+    width: 18.5%;
+}
+
+#miami{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+    
+}
+
+#houston{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+}
+
+#atlanta{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%; 
+    color: white;
+    
+}
+
+#indianapolis{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+}
+
+#denver{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+}
+
+#nashville{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+}
+
+#chicago{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%; 
+    color: white; 
+}
+
+#vegas{
+    background-color:rgb(3, 40, 77);
+    align-content: flex-end;
+    border-radius: 50px;
+    width: 15%;  
+    color: white;
+}
+
