@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7-Day Weather Dashboard</title>
+    <title>5-Day Weather Dashboard</title>
     <link rel="stylesheet" href="./main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
    crossorigin="anonymous"></script>
-   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
    <style>
        body{
            background-color:rgb(79, 111, 207);
@@ -17,33 +18,104 @@
    </style>
 </head>
 <body>
-     <h1 class="dashboard">7-Day Weather Dashboard</h1>
-    
+     <h1 class="dashboard">5-Day Weather Dashboard</h1>
     <input type="search" id="city-search" placeholder="Enter City/State Here">
-    <button id="submit-button">Search</button> 
+    <button id="submit-button">Search</button>
     <br> <br> <br>
-    <button id="miami">Miami</button>
-    <br> <br>
-    <button id="houston">Houston</button>
-    <br> <br>
-    <button id="atlanta">Atlanta</button>
-    <br> <br>
-    <button id="indianapolis">Indianapolis</button>
-    <br> <br>
-    <button id="denver">Denver</button>
-    <br> <br>
-    <button id="nashville">Nashville</button>
-    <br> <br>
-    <button id="chicago">Chicago</button>
-    <br> <br>
-    <button id="vegas">Las Vegas</button> 
-    <br><br>
-    
-    <div id="city-name"></div>
-    <div id="temp" ></div>
-    
-   
-    <script src="./main.js"></script> 
+
+    <!-- cards -->
+    <div class="card-group">
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Sunday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Tuesday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Wednesday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Thursday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Friday</h5>
+                
+
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Saturday</h5>
+                
+
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<div id="button-group">
+<div class="inline"><button  id="miami">Miami</button></div>
+
+<div class="inline"><button  id="houston">Houston</button></div>
+
+<div class="inline"><button  id="atlanta">Atlanta</button></div>
+
+<div class="inline"><button  id="indianapolis">Indianapolis</button></div>
+
+<div class="inline"><button  id="denver">Denver</button></div>
+
+<div class="inline"><button  id="nashville">Nashville</button></div>
+
+<div class="inline"><button  id="chicago">Chicago</button></div>
+
+<div class="inline"><button  id="vegas">Las Vegas</button></div>
+</div>
+
+<br><br>
+
+<div id="city-name"></div>
+<div id="temp"></div>
+<div id="humidity"></div>
+<div id="windSpeed"></div>
+    <script src="./main.js"></script>
 </body>
 </html>
 
